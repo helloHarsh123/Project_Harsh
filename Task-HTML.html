@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-HTML</title>
+</head>
+<body>
+    <ul> <!--Nav bar--> 
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <select name="Option tab 1" id="1">
+        <option value="" selected disabled>Choose an option</option>
+        <option value="Op1">Choose me1</option>
+        <option value="Op2">Choose me2</option>
+        <option value="Op3">Choose me3</option>
+        <option value="Op4">Choose me4</option>
+    </select>
+    <br> <hr>
+    <!-- Create a Registration form that takes input Name, Email, Gender, Country, and address and has a submit and a reset button -->
+    <form>
+        <h3>Registration Form</h3>
+        <input type="text" name="Name" placeholder="Enter your Name" id="name1"> <br>
+        <input type="email" name="Email" placeholder="Enter your email" id="email1"> <br>
+        <label for="Gender">Gender</label> <br>
+        <input type="radio" name="Gender" id="male" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="Gender" id="Female" value="Female">
+        <label for="Female">Female</label><br>
+        <input type="radio" name="Gender" id="Others" value="Others">
+        <label for="Others">Others</label><br>
+        <label for="countrylist">Your Country</label><br>
+        <select name="Country" id="countrylist">
+            <option value="India">India</option>
+            <option value="America">America</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="China">China</option>
+        </select> <br>
+        <input type="text" name="Address" placeholder ="Enter your Address" id="address1"> <br>
+        <input type="button" value="Submit">
+        <input type="reset" value="Reset"><br>
+    </form>
+</body>
+</html>
